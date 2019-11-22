@@ -1,7 +1,5 @@
 <template>
-  <div>
-      tuijian
-  </div>
+  <div>toplist</div>
 </template>
 
 <script>

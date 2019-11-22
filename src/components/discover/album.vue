@@ -1,6 +1,6 @@
 <template>
   <div>
-      tuijian
+      album
   </div>
 </template>
 

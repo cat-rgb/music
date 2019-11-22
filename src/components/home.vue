@@ -1,16 +1,14 @@
 <template>
-    <div>
-        <Banner/>
-    </div>
+    <body>
+        <router-view></router-view>
+    </body>
 </template>
 
 <script>
-import Banner from "./home/banner"
 export default {
-
 }
 </script>
 
-<style>
+<style >
 
 </style>

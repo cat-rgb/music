@@ -1,6 +1,6 @@
 <template>
   <div>
-      tuijian
+      djradio
   </div>
 </template>
 

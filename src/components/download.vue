@@ -1,6 +1,6 @@
 <template>
   <div>
-      tuijian
+      download
   </div>
 </template>
 

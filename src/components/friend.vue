@@ -1,5 +1,7 @@
 <template>
-  
+  <div>
+      firend
+  </div>
 </template>
 
 <script>
