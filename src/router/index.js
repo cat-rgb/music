@@ -13,32 +13,32 @@ export default new Router({
       children: [
         {
           path:"",
-          component:()=>import("../components/discover/discover.vue")
+          component:()=>import("../components/home/discover.vue")
         },
         {
           //排行榜
           path: "/discover/toplist",
-          component: () => import("../components/discover/toplist.vue")
+          component: () => import("../components/home/toplist.vue")
         },
         {
           //歌单
           path: "/discover/playlist",
-          component: () => import("../components/discover/playlist")
+          component: () => import("../components/home/playlist")
         },
         {
           //主播电台
           path: "/discover/djradio",
-          component: () => import("../components/discover/djradio.vue")
+          component: () => import("../components/home/djradio.vue")
         },
         {
           //歌手
           path: "/discover/artist",
-          component: () => import("../components/discover/artist.vue")
+          component: () => import("../components/home/artist.vue")
         },
         {
           //新碟上架
           path: "/discover/album",
-          component: () => import("../components/discover/album.vue")
+          component: () => import("../components/home/album.vue")
         }
       ]
     },

@@ -236,7 +236,7 @@ export default {
 }
 .j-blk{
         float: left;
-    width: 230px;
+    width: 229px;
 }
 .j-bilst{
         height: 472px;
@@ -294,6 +294,7 @@ background-position: -225px -156px;
     float: left;
     width: 729px;
     padding: 20px 20px 40px;
+    box-sizing: border-box;
 }
 .j-bill{
 width: 100%;
