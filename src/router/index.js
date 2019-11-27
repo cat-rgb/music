@@ -13,12 +13,18 @@ export default new Router({
       children: [
         {
           path:"",
-          component:()=>import("../components/home/discover.vue")
+          component:()=>import("../components/home/discover.vue"),
         },
         {
           //排行榜
           path: "/discover/toplist",
-          component: () => import("../components/home/toplist.vue")
+          component: () => import("../components/home/toplist.vue"),
+          // children:[
+          //   {
+          //     path:"/discover/toplist",
+          //     components:()=>import("../components/home/toplist.vue")
+          //   }
+          // ]
         },
         {
           //歌单
@@ -33,7 +39,13 @@ export default new Router({
         {
           //歌手
           path: "/discover/artist",
-          component: () => import("../components/home/artist.vue")
+          component: () => import("../components/home/artist.vue"),
+          children:[
+            {
+              path:"/discover/artist/:id",
+              component:()=>import("../components/home/artist.vue")
+            }
+          ]
         },
         {
           //新碟上架

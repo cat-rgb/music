@@ -1,0 +1,257 @@
+[
+  {
+    "bang": [
+      {
+        "title": "云音乐特色榜",
+        "list": [
+          {
+            "id": 1,
+            "img": "http://p1.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=40y40",
+            "name": "云音乐新歌榜",
+            "update": "每天更新"
+          },{
+            "id": 2,
+            "img": "http://p1.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg?param=40y40",
+            "name": "云音乐飙升榜",
+            "update": "每天更新"
+          },{
+            "id": 3,
+            "img": "http://p1.music.126.net/sBzD11nforcuh1jdLSgX7g==/18740076185638788.jpg?param=40y40",
+            "name": "网易原创歌曲榜",
+            "update": "每周四更新"
+          },{
+            "id": 4,
+            "img": "http://p2.music.126.net/GhhuF6Ep5Tq9IEvLsyCN7w==/18708190348409091.jpg?param=40y40",
+            "name": "云音乐热歌榜",
+            "update": "每周四更新"
+          }
+        ]
+      },
+      {
+        "title": "全球媒体榜",
+        "list": [
+          {
+            "id": 5,
+            "img": "http://p1.music.126.net/y8zyTt4HwXbJqB31aQKz1A==/109951164353220919.jpg?param=40y40",
+            "name": "云音乐说唱榜",
+            "update": "每周五更新"
+          },{
+            "id": 6,
+            "img": "http://p1.music.126.net/BzSxoj6O1LQPlFceDn-LKw==/18681802069355169.jpg?param=40y40",
+            "name": "云音乐古典音乐榜",
+            "update": "每周四更新"
+          },{
+            "id": 7,
+            "img": "http://p1.music.126.net/5tgOCD4jiPKBGt7znJl-2g==/18822539557941307.jpg?param=40y40",
+            "name": "云音乐电音榜",
+            "update": "每周五更新"
+          },{
+            "id": 8,
+            "img": "http://p1.music.126.net/oUxnXXvM33OUHxxukYnUjQ==/109951164174523461.jpg?param=40y400",
+            "name": "抖音排行榜",
+            "update": "每周四更新"
+          },{
+            "id": 9,
+            "img": "http://p1.music.126.net/XbjRDARP1xv5a-40ZDOy6A==/109951163785427934.jpg?param=40y40",
+            "name": "新声榜",
+            "update": "每周一更新"
+          },{
+            "id": 10,
+            "img": "http://p1.music.126.net/vttjtRjL75Q4DEnjRsO8-A==/18752170813539664.jpg?param=40y40",
+            "name": "云音乐ACG音乐榜",
+            "update": "每周四更新"
+          },{
+            "id": 11,
+            "img": "http://p1.music.126.net/vs-cMh49e6qPEorHuhU07A==/18737877162497499.jpg?param=40y40",
+            "name": "云音乐韩语榜",
+            "update": "每周四更新"
+          },{
+            "id": 12,
+            "img": "http://p1.music.126.net/8-GBrukQ3BHhs4CmK6qE4w==/109951163424197392.jpg?param=40y40",
+            "name": "云音乐国电榜",
+            "update": "每周五更新"
+          },{
+            "id": 13,
+            "img": "http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name": "英国Q杂志中文版周榜",
+            "update": "每周三更新"
+          },{
+            "id": 14,
+            "img": "http://p1.music.126.net/CUqQp33MZf_m0BwH4u0V6A==/109951163078922993.jpg?param=40y40",
+            "name": "电竞音乐榜",
+            "update": "每周五更新"
+          },{
+            "id": 15,
+            "img": "http://p1.music.126.net/VQOMRRix9_omZbg4t-pVpw==/18930291695438269.jpg?param=40y40",
+            "name": "UK排行榜周榜",
+            "update": "刚刚更新"
+          },{
+            "id": 16,
+            "img": "http://p1.music.126.net/EBRqPmY8k8qyVHyF8AyjdQ==/18641120139148117.jpg?param=40y40",
+            "name": "美国Billboard周榜",
+            "update": "每周三更新"
+          },{
+            "id": 17,
+            "img": "http://p1.music.126.net/A61n94BjWAb-ql4xpwpYcg==/18613632348448741.jpg?param=40y40",
+            "name": "Beatport全球电子舞曲榜",
+            "update": "每周四更新"
+          },{
+            "id": 18,
+            "img": "http://p1.music.126.net/H4Y7jxd_zwygcAmPMfwJnQ==/19174383276805159.jpg?param=40y40",
+            "name": "KTV唛榜",
+            "update": "每周五更新"
+          },{
+            "id": 19,
+            "img": "http://p1.music.126.net/WTpbsVfxeB6qDs_3_rnQtg==/109951163601178881.jpg?param=40y40",
+            "name": "iTunes榜",
+            "update": "刚刚更新"
+          },{
+            "id": 20,
+            "img": "http://p2.music.126.net/Rgqbqsf4b3gNOzZKxOMxuw==/19029247741938160.jpg?param=40y40",
+            "name": "日本Oricon周榜",
+            "update": "每周三更新"
+          },{
+            "id": 21,
+            "img": "http://p2.music.126.net/54vZEZ-fCudWZm6GH7I55w==/19187577416338508.jpg?param=40y40",
+            "name": "Hit FM Top榜",
+            "update": "刚刚更新"
+          },{
+            "id": 22,
+            "img": "http://p2.music.126.net/wqi4TF4ILiTUUL5T7zhwsQ==/18646617697286899.jpg?param=40y40",
+            "name": "台湾Hito排行榜",
+            "update": "刚刚更新"
+          },{
+              "id":23,
+              "img":"http://p2.music.126.net/c0iThrYPpnFVgFvU6JCVXQ==/109951164091703579.jpg?param=40y40",
+              "name":"云音乐欧美热歌榜",
+              "update":"每周四更新"
+          },{
+            "id":24,
+            "img":"http://p2.music.126.net/Zb8AL5xdl9-_7WIyAhRLbw==/109951164091690485.jpg?param=40y40",
+            "name":"云音乐欧美新歌榜",
+            "update":"每天更新"
+        },{
+            "id":25,
+            "img":"http://p2.music.126.net/6O0ZEnO-I_RADBylVypprg==/109951162873641556.jpg?param=40y40",
+            "name":"法国 NRJ Vos Hits 周榜",
+            "update":"每周五更新"
+        },{
+            "id":26,
+            "img":"http://p2.music.126.net/SkGlKQ6acixthb77VlD9eQ==/109951164432300406.jpg?param=40y40",
+            "name":"云音乐ACG动画榜",
+            "update":"每天更新"
+        },{
+            "id":27,
+            "img":"http://p2.music.126.net/hivOOHMwEmnn9s_6rgZwEQ==/109951164432303700.jpg?param=40y40",
+            "name":"云音乐ACG游戏榜",
+            "update":"每天更新"
+        },{
+            "id":28,
+            "img":"http://p2.music.126.net/Ag7RyRCYiINcd9EtRXf6xA==/109951164432303690.jpg?param=40y40",
+            "name":"云音乐ACG VOCALOID榜",
+            "update":"每天更新"
+        }
+        ]
+      }
+    ],
+    "song":[
+      {
+        "id":1,
+        "titImg":"http://p2.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=150y150",
+        "title":"云音乐特色榜",
+        "date":"11 21",
+        "update":"每天更新",
+        "shoucang":12346,
+        "share":46,
+        "write":123,
+        "num":100,
+        "bofang":2580939264,
+        "songs":[
+          {"songLength":1,
+            "class":"positon",
+            "img":"http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":2,
+            "class":"positon",
+            "img":"http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":3,
+            "class":"positon",
+            "img":"http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":4,
+            "class":"positon",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":5,
+            "class":"positon",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":6,
+            "class":"positon",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          }
+        ]
+
+      }, {
+        "id":2,
+        "titImg":"http://p2.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=150y150",
+        "title":"云音乐特色榜",
+        "date":"11 21",
+        "update":"每天更新",
+        "shoucang":12346,
+        "share":46,
+        "write":123,
+        "num":100,
+        "bofang":2580939264,
+        "songs":[
+          {"songLength":1,
+            "class":"positon",
+            "img":"http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":2,
+            "class":"positon",
+            "img":"http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":3,
+            "class":"positon",
+            "img":"http://p1.music.126.net/0_6_Efe9m0D0NtghOxinUg==/109951163089272193.jpg?param=40y40",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":4,
+            "class":"positon",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":5,
+            "class":"positon",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          },{"songLength":6,
+            "class":"positon",
+            "name":"2580939264",
+            "time":"04:10",
+            "autor":"叫卖其"
+          }
+        ]
+
+      }
+    ]
+  }
+]
