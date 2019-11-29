@@ -9,15 +9,16 @@ import Axios from "axios"
 import ElementUi from "element-ui"
 import 'element-ui/lib/theme-chalk/index.css'
 import "./mock"
-
+import store from "./store/index"
 Vue.use(ElementUi)
 
 Vue.prototype.$axios = Axios
-
+const Bus = new Vue() 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

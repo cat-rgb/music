@@ -10,13 +10,13 @@
             :key="index"
             @click="header(index)"
           >
-            <a href @click.prevent="jump(index)">{{item}}</a>
+            <a href='javascript:;' @click.prevent="jump(index)">{{item}}</a>
             <div class="cur"></div>
           </li>
           <div class="hot"></div>
         </ul>
         <div class="login">
-          <a href>登录</a>
+          <a href="javascript:;" @click="acShow">登录</a>
         </div>
         <div class="crea">创作者中心</div>
         <div class="search">
@@ -43,6 +43,7 @@
 
 <script>
 // document.getElementsByTagName("title")[0].innerHTML = "网易云音乐";
+import {mapActions} from "vuex"
 export default {
   data() {
     return {
@@ -61,6 +62,8 @@ export default {
     };
   },
   methods: {
+
+    ...mapActions(["acShow"]),
     header(index) {
       this.num = index;
       if (index > 0) {
