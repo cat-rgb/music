@@ -7,7 +7,7 @@ import Bus from "../../Bus/bus"
 export default {
    
 }
-</script>
+</script>                             
 
 <style scoped>
 

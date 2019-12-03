@@ -457,4 +457,3 @@ export default {
 .m-tlist .icn-ex {
     background-position: 0 -200px;
 }
-</style>
