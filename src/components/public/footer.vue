@@ -59,12 +59,12 @@ export default {};
   background: #f2f2f2;
 }
 
-.wrap {
+.out .wrap {
   width: 980px;
   margin: 0 auto;
 }
 
-.left {
+.out .left {
   float: left;
   width: 520px;
   padding-top: 15px;
@@ -72,34 +72,34 @@ export default {};
   font-size: 12px;
 }
 
-p {
+.out p {
   overflow: hidden;
 }
 
-.li * {
+.out .li * {
   float: left;
   color: #999;
 }
 
-.li span {
+.out .li span {
   margin: 0 8px 0 10px;
 }
 
-a:hover {
+.out a:hover {
   text-decoration: underline;
 }
 
-.info * {
+.out .info * {
   color: #666;
 }
 
-.right {
+.out .right {
   width: 330px;
   margin-top: 21px;
   float: right;
 }
 
-.right li {
+.out .right li {
   float: left;
   width: 60px;
   height: 70px;
@@ -108,11 +108,11 @@ a:hover {
   color: #666;
 }
 
-.right li:first-child {
+.out .right li:first-child {
   margin-left: 0;
 }
 
-.right li a {
+.out .right li a {
   display: block;
   float: none;
   width: 50px;
@@ -122,23 +122,23 @@ a:hover {
   background-size: 110px 450px;
 }
 
-.right li .a1 {
+.out .right li .a1 {
   background-position: -63px -101px;
 }
 
-.right li .a2 {
+.out .right li .a2 {
   background-position: 0 0;
 }
 
-.right li .a3 {
+.out .right li .a3 {
   background-position: -60px -50px;
 }
 
-.right li .a4 {
+.out .right li .a4 {
   background-position: 0 -101px;
 }
 
-.right span {
+.out .right span {
   display: inline-block;
   margin: 5px 5px 0;
   width: 52px;
@@ -147,19 +147,19 @@ a:hover {
   background-size: 180px 100px;
 }
 
-.right .s1 {
+.out .right .s1 {
   background-position: -1px -91px;
 }
 
-.right .s2 {
+.out .right .s2 {
   background-position: 0 0;
 }
 
-.right .s3 {
+.out .right .s3 {
   background-position: 0 -54px;
 }
 
-.right .s4 {
+.out .right .s4 {
   background-position: -1px -72px;
 }
 

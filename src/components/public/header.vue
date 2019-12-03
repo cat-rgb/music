@@ -10,13 +10,13 @@
             :key="index"
             @click="header(index)"
           >
-            <a href='javascript:;' @click.prevent="jump(index)">{{item}}</a>
+            <a href @click.prevent="jump(index)">{{item}}</a>
             <div class="cur"></div>
           </li>
           <div class="hot"></div>
         </ul>
         <div class="login">
-          <a href="javascript:;" @click="acShow">登录</a>
+          <a href>登录</a>
         </div>
         <div class="crea">创作者中心</div>
         <div class="search">
@@ -43,7 +43,6 @@
 
 <script>
 // document.getElementsByTagName("title")[0].innerHTML = "网易云音乐";
-import {mapActions} from "vuex"
 export default {
   data() {
     return {
@@ -62,10 +61,10 @@ export default {
     };
   },
   methods: {
-
-    ...mapActions(["acShow"]),
     header(index) {
-      this.num = index;
+      if (index != 3 && index != 4) {
+        this.num = index;
+      }
       if (index > 0) {
         this.flag = false;
       } else {
@@ -88,7 +87,11 @@ export default {
           this.$router.push({ path: "/friend" });
           break;
         case 3:
-          // this.$router.push({path:'/store/product'})
+          // this.$router.push({path:'/store/product'});
+          const { href } = this.$router.resolve({
+            path: "/store/product"
+          });
+          window.open(href);
           break;
         case 4:
           // this.$router.push({path:'/nmusician/web/index'})
@@ -131,7 +134,6 @@ export default {
 <style scoped>
 .b-out {
   width: 100%;
-  height: 105px;
   overflow: hidden;
   position: relative;
 }

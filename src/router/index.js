@@ -4,6 +4,7 @@ import Router from "vue-router";
 Vue.use(Router);
 
 export default new Router({
+  mode:'history',
   routes: [
     {
       //home   //推荐
@@ -13,23 +14,17 @@ export default new Router({
       children: [
         {
           path:"",
-          component:()=>import("../components/home/discover.vue"),
+          component:()=>import("../components/home/discover.vue")
         },
         {
           //排行榜
           path: "/discover/toplist",
-          component: () => import("../components/home/toplist.vue"),
-          // children:[
-          //   {
-          //     path:"/discover/toplist",
-          //     components:()=>import("../components/home/toplist.vue")
-          //   }
-          // ]
+          component: () => import("../components/home/toplist.vue")
         },
         {
           //歌单
           path: "/discover/playlist",
-          component: () => import("../components/home/playlist")
+          component: () => import("../components/home/playlist.vue")
         },
         {
           //主播电台
@@ -39,13 +34,7 @@ export default new Router({
         {
           //歌手
           path: "/discover/artist",
-          component: () => import("../components/home/artist.vue"),
-          children:[
-            {
-              path:"/discover/artist/:id",
-              component:()=>import("../components/home/artist.vue")
-            }
-          ]
+          component: () => import("../components/home/artist.vue")
         },
         {
           //新碟上架
@@ -68,6 +57,11 @@ export default new Router({
       //下载客户端
       path: "/download",
       component: () => import("../components/download")
+    },
+    {
+      //下载客户端
+      path: "/store/product",
+      component: () => import("../components/store")
     }
   ]
 });
