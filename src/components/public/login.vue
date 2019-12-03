@@ -1,6 +1,6 @@
 <template>
   <div id="big">
-    <div id="login" class="clearfix" >
+    <div id="login" class="clearfix">
       <div class="zbar">
         <div class="zttl f-hide">登录</div>
       </div>
@@ -64,37 +64,167 @@
             </div>
           </div>
         </div>
-        
-        <transition name="skip">
-        <div class="prompt" v-show="skipp">请先勾选《服务条款》 《隐私政策》 《儿童隐私政策》</div>
-      </transition>
-      </div>
-   
-      <div id="#reg"></div>
 
+        <transition name="skip">
+          <div class="prompt" v-show="skipp">请先勾选《服务条款》 《隐私政策》 《儿童隐私政策》</div>
+        </transition>
+      </div>
+
+      <!-- 注册 -->
+      <div id="reg" v-show="reg">
+        <div class="n-log2-2">
+          <div class="s-fc3">
+            <label>手机号：</label>
+          </div>
+
+          <div class="j-mob f-mgt10">
+            <div class="u-phonewrap">
+              <a href="javascript:;" class="current">
+                <span>+86</span>
+                <span class="icn u-icn2 u-icn2-17"></span>
+              </a>
+              <div class="txtwrap">
+                <input type="text" class="j-phone txt u-txt" v-model="username" name="username" />
+              </div>
+            </div>
+          </div>
+
+          <div class="s-fc3">
+            <label>密码：</label>
+          </div>
+          <div class="f-mgt10">
+            <input type="text" class="u-txt" v-model="password" name="password" />
+          </div>
+          <button @click="zhuce">注册</button>
+        </div>
+
+        <div class="n-loglink2">
+          <a href="javascript:;" class="s-primary" @click="toggle">返回登录</a>
+        </div>
+      </div>
+
+
+      <!-- login -->
+      <div id="signIn" v-show="tel">
+        <div class="n-log2-2">
+          <div class="s-fc3">
+            <label>手机号：</label>
+          </div>
+
+          <div class="j-mob f-mgt10">
+            <div class="u-phonewrap">
+              <a href="javascript:;" class="current">
+                <span>+86</span>
+                <span class="icn u-icn2 u-icn2-17"></span>
+              </a>
+              <div class="txtwrap">
+                <input type="text" class="j-phone txt u-txt" v-model="username" name="username" />
+              </div>
+            </div>
+          </div>
+
+          <div class="s-fc3">
+            <label>密码：</label>
+          </div>
+          <div class="f-mgt10">
+            <input type="text" class="u-txt" v-model="password" name="password" />
+          </div>
+          <button @click="singIn">登录</button>
+        </div>
+
+        <div class="n-loglink2">
+          <a href="javascript:;" class="s-primary" @click="toggle">返回登录</a>
+        </div>
+      </div>
 
     </div>
   </div>
 </template>
 
 <script>
-import { mapActions, mapState } from "vuex";
+import { mapActions, mapState,mapMutations } from "vuex";
 export default {
+  computed: {
+    ...mapState(["loginStatus"])
+  },
   methods: {
     ...mapActions(["acShow"]),
+    ...mapMutations(["show"]),
     checked(el) {
       this.num = el.target.checked;
     },
+    toggle(){
+      this.tel = false
+      this.reg = false
+      this.hide = !this.hide
+    },
+    //注册
+    zhuce() {
+      this.$axios({
+        url: "api/reg",
+        method: "post",
+        data: {
+          username: this.username,
+          password: this.password
+        }
+      }).then((res)=>{
+        const {status} = res.data
+        if(status==2){
+          this.username = ""
+          this.password = ""
+          alert("注册成功")
+        }else if(status==1){
+          this.username = ""
+          this.password = ""
+          alert("已经注册")
+          
+        }
+      })
+    },
+    //登录
+    singIn(){
+      this.$axios({
+        url:"api/login",
+        method:"post",
+        data:{
+          username:this.username,
+          password:this.password
+        }
+      }).then((res)=>{
+        const {status} = res.data
+        if(status==0){
+          this.username = ""
+          this.password = ""
+          alert("没有注册")
+        }else if(status==3){
+          this.username = ""
+          this.password = ""
+          alert("登录成功")
+          console.log(res)
+          
+          this.acShow(status)
+
+        }else if(status == 4){
+          this.username = ""
+          this.password = ""
+          alert("用户名或密码错误")
+        }
+      })
+    },
+    //跳转
     skip(a) {
+      //跳转
       if (this.num) {
         switch (a) {
           case "tel":
             {
+              this.hide = !this.hide
               this.tel = !this.tel;
             }
             break;
           case "reg":
             {
+              this.hide = !this.hide
               this.reg = !this.reg;
             }
             break;
@@ -102,6 +232,7 @@ export default {
             break;
         }
       } else {
+        //勾选框显示消失
         this.skipp = true;
         setTimeout(() => {
           this.skipp = false;
@@ -111,9 +242,17 @@ export default {
   },
   data() {
     return {
+      //勾选
       skipp: false,
       num: false,
-      hide:false
+      //登录弹框页面
+      hide: true,
+      username: "",
+      password: "",
+      //登录页面
+      tel:false,
+      //注册页面
+      reg:false
     };
   }
 };
@@ -316,8 +455,82 @@ label {
 }
 
 /* 注册页面 */
-#reg{
-  
+#reg {
+  background: white;
+}
+#signIn{
+  background: white
+}
+.n-log2-2 {
+  padding: 30px 0 43px;
+  width: 220px;
+  margin: 0 auto;
+}
+.s-fc3 {
+  color: #666;
+}
+.f-mgt10 {
+  margin-top: 10px;
+}
+.u-phonewrap {
+  position: relative;
+  height: 30px;
+  margin: 0;
+  border: 1px solid #cdcdcd;
+  border-radius: 2px;
+  z-index: 10;
+}
+.u-phonewrap .current {
+  position: relative;
+  float: left;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 18px 0 5px;
+  border-right: 1px solid #cdcdcd;
+}
+.u-phonewrap .current .icn {
+  position: absolute;
+  top: 14px;
+  right: 7px;
+}
+.u-icn2 {
+  background: url(https://s2.music.126.net/style/web2/img/icon2.png?f9dde3dd5ffcad48d0ddcffae5460e2b)
+    no-repeat 0 9999px;
+}
+.u-icn2-17 {
+  width: 7px;
+  height: 4px;
+  background-position: -260px -450px;
+}
+.u-phonewrap .txtwrap {
+  overflow: hidden;
+}
+.n-log2 .u-txt {
+  width: 206px;
 }
 
+.u-phonewrap .txt {
+  display: block;
+  padding: 5px 8px 5px;
+  height: 20px;
+  line-height: 20px;
+  border: none;
+}
+.u-txt {
+  height: 19px;
+  margin: 0;
+  padding: 5px 6px 6px;
+  border: 1px solid #cdcdcd;
+  border-radius: 2px;
+  line-height: 19px;
+}
+.n-loglink2 {
+  padding: 0 19px;
+  height: 48px;
+  border-top: 1px solid #c6c6c6;
+  border-radius: 0 0 4px 4px;
+  line-height: 48px;
+  background-color: #f7f7f7;
+}
 </style>

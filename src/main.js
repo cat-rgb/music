@@ -12,6 +12,10 @@ import "./mock"
 import store from "./store/index"
 Vue.use(ElementUi)
 
+//路由导航守卫
+// router.beforeEach(( to,from,next)=>{
+
+// })
 Vue.prototype.$axios = Axios
 const Bus = new Vue() 
 /* eslint-disable no-new */

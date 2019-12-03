@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header />
     <router-view/>
     <Footer/>
     <Login v-if="show"></Login>
@@ -16,7 +16,7 @@ export default {
   name: 'App',
   components:{Header,Footer,Login},
   computed: {
-    ...mapState(["show"])
+    ...mapState(["show","storeShow"])
   },
  
 }

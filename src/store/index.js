@@ -7,8 +7,11 @@ import actions from "./actions"
 Vue.use(Vuex)
 
 const state = {
-    loginStatus:false,
-    show:false
+    loginStatus:"",
+    //login reg
+    show:false,
+    //
+    sotreShow:true
 }
 export default new Vuex.Store({
  state,

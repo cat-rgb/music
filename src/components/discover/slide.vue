@@ -6,7 +6,7 @@
         <!-- 登录区域 -->
         <div class="ds-dengl">
           <p class="ds-note">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
-          <a href id="ds-login">用户登录</a>
+          <a href="javascript:;" id="ds-login" @click="acShow">用户登录</a>
         </div>
         <!-- 入驻歌手 -->
         <div class="ds-singer">
@@ -162,8 +162,11 @@
 </template>
 
 <script>
+import {mapActions} from "vuex"
 export default {
-   
+   methods: {
+     ...mapActions(["acShow"])
+   },
 };
 </script>
 
