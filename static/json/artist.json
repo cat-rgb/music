@@ -1,0 +1,575 @@
+{
+    "slides": [
+        {
+            "title": "推荐",
+            "authors": [
+                {
+                    "id": "1",
+                    "index": "first",
+                    "author": "推荐歌手"
+                },
+                {
+                    "id": "2",
+                    "index": "second",
+                    "author": "入驻歌手"
+                }
+            ]
+        },
+        {
+            "title": "华语",
+            "authors": [
+                {
+                    "id": 3,
+                    "index": "three",
+                    "author": "华语男歌手"
+                },
+                {
+                    "id": 4,
+                    "index": "four",
+                    "author": "华语女歌手"
+                },
+                {
+                    "id": 5,
+                    "index": "five",
+                    "author": "华语组合/乐队"
+                }
+            ]
+        },
+        {
+            "title": "欧美",
+            "authors": [
+                {
+                    "id": 6,
+                    "author": "欧美男歌手"
+                },
+                {
+                    "id": 7,
+                    "author": "欧美女歌手"
+                },
+                {
+                    "id": 8,
+                    "author": "欧美组合/乐队"
+                }
+            ]
+        },
+        {
+            "title": "日本",
+            "authors": [
+                {
+                    "id": 9,
+                    "author": "日本男歌手"
+                },
+                {
+                    "id": 10,
+                    "author": "日本女歌手"
+                },
+                {
+                    "id": 11,
+                    "author": "日本组合/乐队"
+                }
+            ]
+        },
+        {
+            "title": "韩国",
+            "authors": [
+                {
+                    "id": 12,
+                    "author": "韩国男歌手"
+                },
+                {
+                    "id": 13,
+                    "author": "韩国女歌手"
+                },
+                {
+                    "id": 14,
+                    "author": "韩国组合/乐队"
+                }
+            ]
+        },
+        {
+            "title": "其他",
+            "authors": [
+                {
+                    "id": 15,
+                    "author": "其他男歌手"
+                },
+                {
+                    "id": 16,
+                    "author": "其他女歌手"
+                },
+                {
+                    "id": 17,
+                    "author": "其他组合/乐队"
+                }
+            ]
+        }
+    ],
+    "list": [
+        {
+            "biaodan": "入驻歌手",
+            "geshou": [
+                {
+                    "tu": "http://p2.music.126.net/F9asgcj7C7qSl_je9XDvRw==/603631883675241.jpg?param=130y130",
+                    "name": "张惠妹"
+                },
+                {
+                    "tu": "http://p2.music.126.net/7BUW9dnqOMF1dn3ioKJOMg==/109951162820707114.jpg?param=130y130",
+                    "name": "Fine乐团"
+                },
+                {
+                    "tu": "http://p2.music.126.net/TiRAIiIihOgtBgYB6DZRXA==/109951162916034289.jpg?param=130y130",
+                    "name": "万晓利"
+                },
+                {
+                    "tu": "http://p2.music.126.net/w_UWOls2uCkFN_U62788Xg==/18806046882229308.jpg?param=130y130",
+                    "name": "赵雷"
+                },
+                {
+                    "tu": "http://p2.music.126.net/NDsX060FnCtiDMZN-c_9Gw==/3438172872737957.jpg?param=130y130",
+                    "name": "王三溥"
+                },
+                {
+                    "tu": "http://p2.music.126.net/TQZGbxp-xnJla-q7ii9z0A==/1364493985498917.jpg?param=130y130",
+                    "name": "吴莫愁"
+                },
+                {
+                    "tu": "http://p2.music.126.net/aSFrKm-igpxlvzYrdJOMPQ==/279275953476688.jpg?param=130y130",
+                    "name": "洪启"
+                },
+                {
+                    "tu": "http://p2.music.126.net/d9xefjQIm5uWrEyalZjCkg==/109951163522346856.jpg?param=130y130",
+                    "name": "李霄云"
+                },
+                {
+                    "tu": "http://p2.music.126.net/YOmW5GdOWA44oascVdjfUw==/280375465100304.jpg?param=130y130",
+                    "name": "孙楠"
+                },
+                {
+                    "tu": "http://p2.music.126.net/1GIlkxKmvKu66ufU83FyvA==/31885837222663.jpg?param=130y130",
+                    "name": "老狼"
+                }
+            ]
+        },
+        {
+            "biaodan": "热门歌手",
+            "geshou": [
+                {
+                    "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+                    "name": "隔壁老樊"
+                },
+                {
+                    "tu": "https://p1.music.126.net/jq8QrogorsmwJv3Xn7_UOQ==/109951163765021940.jpg?param=130y130",
+                    "name": "薛之谦"
+                },
+                {
+                    "tu": "https://p2.music.126.net/Pjg8cuJBuu41iiwKu0Lwqg==/109951164502347581.jpg?param=130y130",
+                    "name": "柏松"
+                },
+                {
+                    "tu": "https://p2.music.126.net/r7uMnwjWpYMuQI_3ZTg56A==/18528969953189760.jpg?param=130y130",
+                    "name": "G.E.M.邓紫棋"
+                },
+                {
+                    "tu": "https://p2.music.126.net/cnGpIQ6rQCKVrDyVVSpzeg==/3263350518850877.jpg?param=130y130",
+                    "name": "林俊杰"
+                },
+                {
+                    "tu": "https://p2.music.126.net/_d1scu7z_1dmd0Zgv9mTLA==/19165587183900212.jpg?param=130y130",
+                    "name": "陈奕迅"
+                },
+                {
+                    "tu": "https://p2.music.126.net/nruyNiy6gdMISTBTwoM97A==/109951163569790720.jpg?param=130y130",
+                    "name": "阿冗"
+                },
+                {
+                    "tu": "https://p2.music.126.net/daN7qav1x0nWl-TZRe41dw==/109951163303423969.jpg?param=130y130",
+                    "name": "王贰浪"
+                },
+                {
+                    "tu": "https://p2.music.126.net/7unSVx4zd-iX5wViV74FhQ==/109951164082495743.jpg?param=130y130",
+                    "name": "颜人中"
+                },
+                {
+                    "tu": "https://p2.music.126.net/ATZ8-mOxophKXrLC0iXMZw==/109951163536269820.jpg?param=130y130",
+                    "name": "许嵩"
+                }
+            ]
+        }
+    ],
+    "hanzi": [
+        "en",
+        "沈以诚",
+        "徐秉龙",
+        "花粥",
+        "永彬Ryan.B",
+        "Alan Walker",
+        "音阙诗听",
+        "李荣浩",
+        "IU",
+        "华晨宇",
+        "林宥嘉",
+        "毛不易",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）",
+        "en",
+        "沈以诚",
+        "徐秉龙",
+        "花粥",
+        "永彬Ryan.B",
+        "Alan Walker",
+        "音阙诗听",
+        "李荣浩",
+        "IU",
+        "华晨宇",
+        "林宥嘉",
+        "毛不易",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）",
+        "en",
+        "沈以诚",
+        "徐秉龙",
+        "花粥",
+        "永彬Ryan.B",
+        "Alan Walker",
+        "音阙诗听",
+        "李荣浩",
+        "IU",
+        "华晨宇",
+        "林宥嘉",
+        "毛不易",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）",
+        "en",
+        "沈以诚",
+        "徐秉龙",
+        "花粥",
+        "永彬Ryan.B",
+        "Alan Walker",
+        "音阙诗听",
+        "李荣浩",
+        "IU",
+        "华晨宇",
+        "林宥嘉",
+        "毛不易",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）",
+        "en",
+        "沈以诚",
+        "徐秉龙",
+        "花粥",
+        "永彬Ryan.B",
+        "Alan Walker",
+        "音阙诗听",
+        "李荣浩",
+        "IU",
+        "华晨宇",
+        "林宥嘉",
+        "毛不易",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）",
+        "蔡健雅",
+        "Taylor Swift",
+        "焦迈奇",
+        "Charlie Puth",
+        "周延英（英子-effie）"
+    ],
+    "list1": [
+        {
+            "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+            "name": "隔壁老樊"
+        },
+        {
+            "tu": "https://p1.music.126.net/jq8QrogorsmwJv3Xn7_UOQ==/109951163765021940.jpg?param=130y130",
+            "name": "薛之谦"
+        },
+        {
+            "tu": "https://p2.music.126.net/Pjg8cuJBuu41iiwKu0Lwqg==/109951164502347581.jpg?param=130y130",
+            "name": "柏松"
+        },
+        {
+            "tu": "https://p2.music.126.net/r7uMnwjWpYMuQI_3ZTg56A==/18528969953189760.jpg?param=130y130",
+            "name": "G.E.M.邓紫棋"
+        },
+        {
+            "tu": "https://p2.music.126.net/cnGpIQ6rQCKVrDyVVSpzeg==/3263350518850877.jpg?param=130y130",
+            "name": "林俊杰"
+        },
+        {
+            "tu": "https://p2.music.126.net/_d1scu7z_1dmd0Zgv9mTLA==/19165587183900212.jpg?param=130y130",
+            "name": "陈奕迅"
+        },
+        {
+            "tu": "https://p2.music.126.net/nruyNiy6gdMISTBTwoM97A==/109951163569790720.jpg?param=130y130",
+            "name": "阿冗"
+        },
+        {
+            "tu": "https://p2.music.126.net/daN7qav1x0nWl-TZRe41dw==/109951163303423969.jpg?param=130y130",
+            "name": "王贰浪"
+        },
+        {
+            "tu": "https://p2.music.126.net/7unSVx4zd-iX5wViV74FhQ==/109951164082495743.jpg?param=130y130",
+            "name": "颜人中"
+        },
+        {
+            "tu": "https://p2.music.126.net/ATZ8-mOxophKXrLC0iXMZw==/109951163536269820.jpg?param=130y130",
+            "name": "许嵩"
+        },
+        {
+            "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+            "name": "隔壁老樊"
+        },
+        {
+            "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+            "name": "隔壁老樊"
+        },
+        {
+            "tu": "https://p1.music.126.net/jq8QrogorsmwJv3Xn7_UOQ==/109951163765021940.jpg?param=130y130",
+            "name": "薛之谦"
+        },
+        {
+            "tu": "https://p2.music.126.net/Pjg8cuJBuu41iiwKu0Lwqg==/109951164502347581.jpg?param=130y130",
+            "name": "柏松"
+        },
+        {
+            "tu": "https://p2.music.126.net/r7uMnwjWpYMuQI_3ZTg56A==/18528969953189760.jpg?param=130y130",
+            "name": "G.E.M.邓紫棋"
+        },
+        {
+            "tu": "https://p2.music.126.net/cnGpIQ6rQCKVrDyVVSpzeg==/3263350518850877.jpg?param=130y130",
+            "name": "林俊杰"
+        },
+        {
+            "tu": "https://p2.music.126.net/_d1scu7z_1dmd0Zgv9mTLA==/19165587183900212.jpg?param=130y130",
+            "name": "陈奕迅"
+        },
+        {
+            "tu": "https://p2.music.126.net/nruyNiy6gdMISTBTwoM97A==/109951163569790720.jpg?param=130y130",
+            "name": "阿冗"
+        },
+        {
+            "tu": "https://p2.music.126.net/daN7qav1x0nWl-TZRe41dw==/109951163303423969.jpg?param=130y130",
+            "name": "王贰浪"
+        },
+        {
+            "tu": "https://p2.music.126.net/7unSVx4zd-iX5wViV74FhQ==/109951164082495743.jpg?param=130y130",
+            "name": "颜人中"
+        },
+        {
+            "tu": "https://p2.music.126.net/ATZ8-mOxophKXrLC0iXMZw==/109951163536269820.jpg?param=130y130",
+            "name": "许嵩"
+        },
+        {
+            "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+            "name": "隔壁老樊"
+        },
+        {
+            "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+            "name": "隔壁老樊"
+        },
+        {
+            "tu": "https://p1.music.126.net/jq8QrogorsmwJv3Xn7_UOQ==/109951163765021940.jpg?param=130y130",
+            "name": "薛之谦"
+        },
+        {
+            "tu": "https://p2.music.126.net/Pjg8cuJBuu41iiwKu0Lwqg==/109951164502347581.jpg?param=130y130",
+            "name": "柏松"
+        },
+        {
+            "tu": "https://p2.music.126.net/r7uMnwjWpYMuQI_3ZTg56A==/18528969953189760.jpg?param=130y130",
+            "name": "G.E.M.邓紫棋"
+        },
+        {
+            "tu": "https://p2.music.126.net/cnGpIQ6rQCKVrDyVVSpzeg==/3263350518850877.jpg?param=130y130",
+            "name": "林俊杰"
+        },
+        {
+            "tu": "https://p2.music.126.net/_d1scu7z_1dmd0Zgv9mTLA==/19165587183900212.jpg?param=130y130",
+            "name": "陈奕迅"
+        },
+        {
+            "tu": "https://p2.music.126.net/nruyNiy6gdMISTBTwoM97A==/109951163569790720.jpg?param=130y130",
+            "name": "阿冗"
+        },
+        {
+            "tu": "https://p2.music.126.net/daN7qav1x0nWl-TZRe41dw==/109951163303423969.jpg?param=130y130",
+            "name": "王贰浪"
+        },
+        {
+            "tu": "https://p2.music.126.net/7unSVx4zd-iX5wViV74FhQ==/109951164082495743.jpg?param=130y130",
+            "name": "颜人中"
+        },
+        {
+            "tu": "https://p2.music.126.net/ATZ8-mOxophKXrLC0iXMZw==/109951163536269820.jpg?param=130y130",
+            "name": "许嵩"
+        },
+        {
+            "tu": "https://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+            "name": "隔壁老樊"
+        },
+        {
+            "tu": "https://p2.music.126.net/daN7qav1x0nWl-TZRe41dw==/109951163303423969.jpg?param=130y130",
+            "name": "王贰浪"
+        },
+        {
+            "tu": "https://p2.music.126.net/7unSVx4zd-iX5wViV74FhQ==/109951164082495743.jpg?param=130y130",
+            "name": "颜人中"
+        }
+    ],
+    "text": [
+        {
+            "id": 3,
+            "list": [
+                {
+                    "tu": "http://p1.music.126.net/Xl0WENt4F6wsgjjjQWuQsw==/109951164232034479.jpg?param=130y130",
+                    "name": "隔壁老樊"
+                },
+                {
+                    "tu": "http://p1.music.126.net/jq8QrogorsmwJv3Xn7_UOQ==/109951163765021940.jpg?param=130y130",
+                    "name": "薛之谦"
+                },
+                {
+                    "tu": "http://p1.music.126.net/Pjg8cuJBuu41iiwKu0Lwqg==/109951164502347581.jpg?param=130y130",
+                    "name": "柏松"
+                },
+                {
+                    "tu": "http://p1.music.126.net/cnGpIQ6rQCKVrDyVVSpzeg==/3263350518850877.jpg?param=130y130",
+                    "name": "林俊杰"
+                },
+                {
+                    "tu": "http://p1.music.126.net/_d1scu7z_1dmd0Zgv9mTLA==/19165587183900212.jpg?param=130y130",
+                    "name": "陈奕迅"
+                },
+                {
+                    "tu": "http://p1.music.126.net/nruyNiy6gdMISTBTwoM97A==/109951163569790720.jpg?param=130y130",
+                    "name": "阿冗"
+                },
+                {
+                    "tu": "http://p1.music.126.net/7unSVx4zd-iX5wViV74FhQ==/109951164082495743.jpg?param=130y130",
+                    "name": "颜人中"
+                },
+                {
+                    "tu": "http://p1.music.126.net/ATZ8-mOxophKXrLC0iXMZw==/109951163536269820.jpg?param=130y130",
+                    "name": "许嵩"
+                },
+                {
+                    "tu": "http://p1.music.126.net/cQVzMgdaHZDPSaxjxT-aTg==/109951164077910301.jpg?param=130y130",
+                    "name": "en"
+                },
+                {
+                    "tu": "http://p1.music.126.net/TW2dCkVMk185rwvZc9dbYg==/109951164299561088.jpg?param=130y130",
+                    "name": "沈以诚"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "list": [
+                {
+                    "tu": "http://p2.music.126.net/r7uMnwjWpYMuQI_3ZTg56A==/18528969953189760.jpg?param=130y130",
+                    "name": "隔壁老樊"
+                },
+                {
+                    "tu": "http://p2.music.126.net/daN7qav1x0nWl-TZRe41dw==/109951163303423969.jpg?param=130y130",
+                    "name": "薛之谦"
+                },
+                {
+                    "tu": "http://p2.music.126.net/f2R3-se6DLlcucIusS6mQQ==/109951163610593454.jpg?param=130y130",
+                    "name": "柏松"
+                },
+                {
+                    "tu": "http://p2.music.126.net/sxyGTra05rFof5i9w3PXzQ==/109951163710520009.jpg?param=130y130",
+                    "name": "林俊杰"
+                },
+                {
+                    "tu": "http://p2.music.126.net/Q92YwJrk2f2tsK-7B0VIhQ==/6628955605123612.jpg?param=130y130",
+                    "name": "陈奕迅"
+                },
+                {
+                    "tu": "http://p2.music.126.net/4PXTcEKYfqe_SM9uVXrDVA==/109951163547888262.jpg?param=130y130",
+                    "name": "阿冗"
+                },
+                {
+                    "tu": "http://p2.music.126.net/73jE8Q-PV7pfP_7f5E7_oA==/109951164233334958.jpg?param=130y130",
+                    "name": "颜人中"
+                },
+                {
+                    "tu": "http://p2.music.126.net/Vu3BIgDh6UwyphaCrcGP6g==/109951164470387750.jpg?param=130y130",
+                    "name": "许嵩"
+                },
+                {
+                    "tu": "http://p2.music.126.net/2XHRjgOcjfdpSEgzP2AbgA==/3412884102389555.jpg?param=130y130",
+                    "name": "en"
+                },
+                {
+                    "tu": "http://p2.music.126.net/UkEECoTzlCOF8u6dqi2nEQ==/109951163872002853.jpg?param=130y130",
+                    "name": "沈以诚"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "list": [
+                {
+                    "tu": "http://p1.music.126.net/WSxQCBXPPI-41Qz77fLsOw==/109951162809092287.jpg?param=130y130",
+                    "name": "隔壁老樊"
+                },
+                {
+                    "tu": "http://p1.music.126.net/ABu20RVf-nzyWRg83ds5rw==/1416170978775000.jpg?param=130y130",
+                    "name": "薛之谦"
+                },
+                {
+                    "tu": "http://p1.music.126.net/ohub446GfbVtIJ9_H-cjpw==/7719671138847203.jpg?param=130y130",
+                    "name": "柏松"
+                },
+                {
+                    "tu": "http://p1.music.126.net/10SJIPMH-WYPfUv7gD3wWg==/109951163720168310.jpg?param=130y130",
+                    "name": "林俊杰"
+                },
+                {
+                    "tu": "http://p1.music.126.net/EpEod7v_BLRT7pPPoRVCmg==/3433774827175653.jpg?param=130y130",
+                    "name": "陈奕迅"
+                },
+                {
+                    "tu": "http://p1.music.126.net/Fp2l7_9h12895Q22lIqzXQ==/109951163438785715.jpg?param=130y130",
+                    "name": "阿冗"
+                },
+                {
+                    "tu": "http://p1.music.126.net/2g_OyvuN7C9uFhOoUR6m_w==/109951164445586445.jpg?param=130y130",
+                    "name": "颜人中"
+                },
+                {
+                    "tu": "http://p1.music.126.net/Hf-0kjdtbn1169gN7WE_hA==/109951163720138703.jpg?param=130y130",
+                    "name": "许嵩"
+                },
+                {
+                    "tu": "http://p1.music.126.net/znozXOyHQXRc52hU6UAtmg==/756463999935630.jpg?param=130y130",
+                    "name": "en"
+                },
+                {
+                    "tu": "http://p1.music.126.net/9jZJRdop1qNQNKoMmE8Eaw==/109951164289126083.jpg?param=130y130",
+                    "name": "沈以诚"
+                }
+            ]
+        }
+    ]
+}

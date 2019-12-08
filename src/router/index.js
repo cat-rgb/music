@@ -34,7 +34,21 @@ export default new Router({
         {
           //歌手
           path: "/discover/artist",
-          component: () => import("../components/home/artist.vue")
+          component: () => import("../components/home/artist.vue"),
+          children: [
+            {
+              path: "/discover/artist/first",
+              alias:"/discover/artist",
+              component: () => import("../components/artist/ruzhu.vue")
+            },
+            {
+              path: "/discover/artist/cat",
+              component: () => import("../components/artist/huayunv.vue")
+            }, {
+              path: "/discover/artist/second",
+              component: () => import("../components/artist/tuijian.vue")
+            }
+          ]
         },
         {
           //新碟上架
@@ -62,6 +76,14 @@ export default new Router({
       //下载客户端
       path: "/store/product",
       component: () => import("../components/store")
-    }
+    },{
+      path: '/dan',
+      name:"dan",
+      component:()=>import('../components/榜单.vue'),
+    },
+    {
+      path: '/playlist',
+      component:()=>import('../components/详情页.vue'),
+    },
   ]
 });

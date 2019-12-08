@@ -10,66 +10,14 @@
             :key="index"
             @click="header(index)"
           >
-            <a href='javascript:;' @click.prevent="jump(index)">{{item}}</a>
+            <a href @click.prevent="jump(index)">{{item}}</a>
             <div class="cur"></div>
           </li>
           <div class="hot"></div>
         </ul>
         <div class="login">
-
-          <!-- 头像 -->
-          <img src="../..//assets/109951163892302996.jpg" alt="" v-if="loginStatus==3">
-          <a href="javascript:;" @click="acShow" v-else>登录</a>
-          <i class="msg" v-show="msg==0?false:true" v-if="loginStatus==3">{{msg}}</i>
+          <a href>登录</a>
         </div>
-
-        <div class="m-tlist">
-          <ul id="ul">
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-hm"></i>
-                <em>我的主页</em>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-msg"></i>
-                <em>我的消息</em>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-lv"></i>
-                <em>我的登记</em>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-hm"></i>
-                <em>VIp会员</em>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-mbr"></i>
-                <em>个人设置</em>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-st"></i>
-                <em>实名认证</em>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <i class="icn icn-ex"></i>
-                <em>退出</em>
-              </a>
-            </li>
-          </ul>
-        </div>
-
         <div class="crea">创作者中心</div>
         <div class="search">
           <input type="text" name id placeholder="音乐/视频/电台/用户" />
@@ -95,11 +43,7 @@
 
 <script>
 // document.getElementsByTagName("title")[0].innerHTML = "网易云音乐";
-import {mapActions,mapState} from "vuex"
 export default {
-  computed: {
-    ...mapState(["show","loginStatus"])
-  },
   data() {
     return {
       headerArr: [
@@ -113,15 +57,14 @@ export default {
       num: 0,
       headerArr2: ["推荐", "排行榜", "歌单", "主播电台", "歌手", "新碟上架"],
       num2: 0,
-      flag: true,
-      msg:1
+      flag: true
     };
   },
   methods: {
-
-    ...mapActions(["acShow"]),
     header(index) {
-      this.num = index;
+      if (index != 3 && index != 4) {
+        this.num = index;
+      }
       if (index > 0) {
         this.flag = false;
       } else {
@@ -144,6 +87,7 @@ export default {
           this.$router.push({ path: "/friend" });
           break;
         case 3:
+          // this.$router.push({path:'/store/product'});
           const { href } = this.$router.resolve({
             path: "/store/product"
           });
@@ -168,7 +112,7 @@ export default {
           this.$router.push({ path: "/discover/toplist" });
           break;
         case 2:
-          this.$router.push({ path: "/discover/playlist" });
+          this.$router.push({ path: "/dan" });
           break;
         case 3:
           this.$router.push({ path: "/discover/djradio" });
@@ -190,7 +134,7 @@ export default {
 <style scoped>
 .b-out {
   width: 100%;
-  height: 105px;
+  overflow: hidden;
   position: relative;
 }
 
@@ -199,6 +143,7 @@ export default {
   box-sizing: border-box;
   background: #242424;
   border-bottom: 1px solid #000;
+  overflow: hidden;
   position: relative;
 }
 
@@ -207,6 +152,7 @@ export default {
   height: 100%;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .b-out .logo {
@@ -284,7 +230,6 @@ export default {
   float: right;
   height: 100%;
   line-height: 70px;
-  position: relative;
 }
 
 .b-out .login a {
@@ -380,86 +325,4 @@ export default {
 .b-out .bottom ul li a:hover {
   background: #9b0909;
 }
-
-
-
-.login img{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: red;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%)
-}
-.msg{
-  display: block;
-  width: 17px;
-  height: 17px;
-  background: red;
-  border-radius: 50%;
-  font-size: 12px;
-  color: white;
-  position: absolute;
-  right: -20px;
-  top: 15px;
-  text-align: center;
-  line-height: 17px;
-}
-.m-tlist {
-    display: none;
-    z-index: 99;
-    position: absolute;
-    top: 60px;
-    right: -43px;
-    width: 158px;
-    background: #2b2b2b;
-    border: 1px solid #202020;
-    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.50);
-    border-radius: 4px;
-}
-.m-tlist #ul{
-  height: auto;
-}
-.m-tlist li, .m-tlist li a {
-    float: left;
-    box-sizing: border-box;
-    width: 100%;
-    height: 30px;
-}
-.m-tlist #ul li a{
-      height: 30px;
-    line-height: 30px;
-    position: relative;
-    padding-left: 24px;
-    color: #ccc;
-}
-.m-tlist .icn, .m-tlist .arr {
-    background: url(https://s2.music.126.net/style/web2/img/frame/toplist.png?84a224b3ef46e7e48a49f9a2d415d90f) no-repeat 0 9999px;
-}
-.m-tlist .icn {
-    float: left;
-    width: 18px;
-    height: 18px;
-        margin: 7px 10px 0 0;
-}
-.m-tlist .icn-hm {
-    background-position: 0 -80px;
-}
-.m-tlist .icn-msg {
-    background-position: -20px -120px;
-}
-.m-tlist .icn-lv {
-    background-position: 0 -100px;
-}
-.m-tlist .icn-mbr {
-    background-position: 0 -221px;
-    margin-top: 9px;
-}
-.m-tlist .icn-st {
-    background-position: 0 -140px;
-}
-.m-tlist .icn-ex {
-    background-position: 0 -200px;
-}
+</style>

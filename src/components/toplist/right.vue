@@ -1,6 +1,5 @@
 <template>
   <div id="right">
-    {{$route.query.id}}
     <div class="g-mn3c" v-for="(item,index) in data" :key="index">
       <div class="g-wrap">
         <div class="clearfix">
@@ -59,7 +58,7 @@
             </thead>
 
             <tbody>
-              <tr :class="i%2==0?'even':''" v-for='(arr,i) in item.songs' :key = "i">
+              <tr :class="i%2==0?'even':''" v-for='(arr,i) in item.songs' :key="i">
                 <td>
                   <div class="hd">
                     <span class="num">{{arr.songLength}}</span>
@@ -71,8 +70,9 @@
                 <td class="rank">
                   <div class="clearfix">
                     <div class="tt">
-                      <router-link to>
+                      <router-link to="">
                         <img
+                        v-if="false"
                           class="rpic"
                           :src="arr.img"
                           alt
@@ -300,17 +300,15 @@ export default {
 .m-table-rank .hd .num {
   float: left;
   width: 25px;
-  margin-left: 0;
   text-align: center;
 }
 .m-table .hd .num {
   width: 25px;
-  margin-left: 5px;
   color: #999;
 }
 .m-table-rank .rk {
   float: right;
-  width: 32px;
+  width: 31px;
   margin-right: -5px;
   text-align: center;
 }

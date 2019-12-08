@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Header from "./components/public/header"
+import Header from "./components/public/header(1)"
 import Footer from "./components/public/footer"
 import Login from "./components/public/login"
 import {mapState,mapActions} from "vuex"
